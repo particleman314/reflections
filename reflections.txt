@@ -36,3 +36,5 @@ git diff compares working directory versus staging area
 Garbage collection within git for unreachable commits : "git gc"
 
 to abort merge conflicts: "git merge --abort"
+
+use from-to approach for pull "git pull <REMOTE> <LOCAL>" (usually [ origin master ])
