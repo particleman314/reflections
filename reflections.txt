@@ -28,4 +28,11 @@ git diff compares working directory versus staging area
 
 "git reset --hard" to remove changes from staged area and working directory
 
-"git checkout -b <BRANCHNAME>"
+"git checkout -b <BRANCHNAME
+
+"git branch <BRANHCNAME>" makes branch but does not move to new branch
+"git log --graph --oneline <BRANCH1> <BRANCH2>"
+
+Garbage collection within git for unreachable commits : "git gc"
+
+to abort merge conflicts: "git merge --abort"
