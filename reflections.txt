@@ -17,3 +17,15 @@ git config --global core.editor "/Applications/Sublime\ Text.app/Contents/MacOS/
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 
+git init
+git status
+
+"git add <FILENAME(S)>"
+
+git diff compares working directory versus staging area
+
+"git diff --staged" to see differences between staged files and repository
+
+"git reset --hard" to remove changes from staged area and working directory
+
+"git checkout -b <BRANCHNAME>"
