@@ -1,0 +1,19 @@
+reflections:
+
+use "diff -u <old> <new>" for unified diff output
+
+keeping history allows for easily revision and watching of changes
+
+commit on feature or timelime when appropriate
+commit per logical change
+
+"git log --stat"  gives stats about the gits
+
+"git config --global color.ui auto"  sets coloring by default
+
+"git checkout <ID>" to checkout/restore to version of all files at particular version
+
+git config --global core.editor "/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
